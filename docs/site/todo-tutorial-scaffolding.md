@@ -46,7 +46,6 @@ the following:
 src/
   __tests__/
     README.md
-    mocha.opts
     acceptance/
       home-page.controller.acceptance.ts
       ping.controller.acceptance.ts
@@ -73,6 +72,7 @@ package.json
 tsconfig.json
 tslint.build.json
 tslint.json
+.mocharc.json
 ```
 
 | File                                                                                                                                           | Purpose                                                                                                                                                                                                                                                                                                                                                                                   |
@@ -94,8 +94,8 @@ tslint.json
 | `src/models/README.md`                                                                                                                         | Provides information about the models directory, how to generate new models, and where to find more information.                                                                                                                                                                                                                                                                          |
 | `src/repositories/README.md`                                                                                                                   | Provides information about the repositories directory, how to generate new repositories, and where to find more information.                                                                                                                                                                                                                                                              |
 | `src/__tests__/README.md`                                                                                                                      | Please place your tests in this folder.                                                                                                                                                                                                                                                                                                                                                   |
-| `src/test/mocha.opts`                                                                                                                          | [Mocha](https://mochajs.org/) configuration for running your application's tests.                                                                                                                                                                                                                                                                                                         |
 | `src/__tests__/acceptance/ping.controller.acceptance.ts`                                                                                       | An example test to go with the ping controller in `src/controllers`.                                                                                                                                                                                                                                                                                                                      |
+| `.mocharc.json`                                                                                                                                  | [Mocha](https://mochajs.org/) configuration for running your application's tests.                                                                                                                                                                                                                                                                                                         |
 
 ### Navigation
 
